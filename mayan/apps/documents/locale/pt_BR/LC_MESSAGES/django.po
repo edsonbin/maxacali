@@ -242,7 +242,7 @@ msgstr "Excluir"
 
 #: links.py:74 links.py:109
 msgid "Move to trash"
-msgstr ""
+msgstr "Mover para lixo"
 
 #: links.py:79
 msgid "Edit properties"
@@ -282,7 +282,7 @@ msgstr "Documentos recentes"
 
 #: links.py:144
 msgid "Trash"
-msgstr ""
+msgstr "Lixo"
 
 #: links.py:152
 msgid ""

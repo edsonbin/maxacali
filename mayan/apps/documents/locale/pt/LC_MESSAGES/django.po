@@ -282,7 +282,7 @@ msgstr ""
 
 #: links.py:144
 msgid "Trash"
-msgstr ""
+msgstr "Lixo"
 
 #: links.py:152
 msgid ""
