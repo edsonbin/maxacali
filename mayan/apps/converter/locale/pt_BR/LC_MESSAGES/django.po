@@ -11,8 +11,8 @@ msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-04-27 14:10-0400\n"
-"PO-Revision-Date: 2016-03-21 21:06+0000\n"
-"Last-Translator: Roberto Rosario\n"
+"PO-Revision-Date: 2016-08-17 16:49-0300\n"
+"Last-Translator: Edson Oliveira dos Santos <edsonbin@hotmail.com>\n"
 "Language-Team: Portuguese (Brazil) (http://www.transifex.com/rosarior/mayan-"
 "edms/language/pt_BR/)\n"
 "Language: pt_BR\n"
@@ -20,6 +20,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 1.5.4\n"
 
 #: apps.py:18 permissions.py:7 settings.py:7
 msgid "Converter"
@@ -40,16 +41,16 @@ msgstr "argumentos"
 #: backends/python.py:87 backends/python.py:101
 #, python-format
 msgid "Exception determining PDF page count; %s"
-msgstr ""
+msgstr "Exceção ao determinar o número de páginas do PDF; %s"
 
 #: classes.py:98
 msgid "Not an office file format."
-msgstr ""
+msgstr "Não é um arquivo no formato do office. "
 
 #: classes.py:121
 #, python-format
 msgid "LibreOffice not installed or not found at path: %s"
-msgstr ""
+msgstr "LibreOffice não instalado ou não encontrado no caminho: %s"
 
 #: classes.py:254
 msgid "Resize"
@@ -64,8 +65,9 @@ msgid "Zoom"
 msgstr "Zoom"
 
 #: classes.py:324
+#, fuzzy
 msgid "Crop"
-msgstr ""
+msgstr "Cortar"
 
 #: links.py:31
 msgid "Create new transformation"
@@ -88,6 +90,8 @@ msgid ""
 "Order in which the transformations will be executed. If left unchanged, an "
 "automatic order value will be assigned."
 msgstr ""
+"Ordem na qual as transformações serão executadas. Se deixar inalterado, uma "
+"ordem automática será assinalada."
 
 #: models.py:38
 msgid "Name"
@@ -98,22 +102,24 @@ msgid ""
 "Enter the arguments for the transformation as a YAML dictionary. ie: "
 "{\"degrees\": 180}"
 msgstr ""
+"Entre com os argumentos para transformações como um dicionário YAML. Ex: "
+"{\"graus\": 180}"
 
 #: permissions.py:10
 msgid "Create new transformations"
-msgstr ""
+msgstr "Criar novas transformações"
 
 #: permissions.py:13
 msgid "Delete transformations"
-msgstr ""
+msgstr "Excluir transformações"
 
 #: permissions.py:16
 msgid "Edit transformations"
-msgstr ""
+msgstr "Editar transformações"
 
 #: permissions.py:19
 msgid "View existing transformations"
-msgstr ""
+msgstr "Visualizar transformações existentes"
 
 #: settings.py:10
 msgid "Graphics conversion backend to use."
@@ -129,22 +135,23 @@ msgstr "Caminho para o programa  libreoffice"
 
 #: validators.py:22
 msgid "Enter a valid YAML value."
-msgstr ""
+msgstr "Entre com um valor YAML válido"
 
 #: views.py:71
 #, python-format
 msgid "Delete transformation \"%(transformation)s\" for: %(content_object)s?"
 msgstr ""
+"Excluir a transformação \"%(transformation)s\" para: %(content_object)s?"
 
 #: views.py:139
 #, python-format
 msgid "Create new transformation for: %s"
-msgstr ""
+msgstr "Criar nova transformação para: %s"
 
 #: views.py:192
 #, python-format
 msgid "Edit transformation \"%(transformation)s\" for: %(content_object)s"
-msgstr ""
+msgstr "Editar transformação \"%(transformation)s\" para: %(content_object)s"
 
 #: views.py:238
 #, python-format

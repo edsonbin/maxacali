@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-04-27 14:13-0400\n"
-"PO-Revision-Date: 2016-03-21 21:07+0000\n"
-"Last-Translator: Roberto Rosario\n"
+"PO-Revision-Date: 2016-08-17 21:45-0300\n"
+"Last-Translator: Edson Oliveira dos Santos <edsonbin@hotmail.com>\n"
 "Language-Team: Portuguese (Brazil) (http://www.transifex.com/rosarior/mayan-"
 "edms/language/pt_BR/)\n"
 "Language: pt_BR\n"
@@ -18,10 +18,12 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 1.5.4\n"
 
 #: apps.py:25
+#, fuzzy
 msgid "Mailer"
-msgstr ""
+msgstr "Mailer"
 
 #: apps.py:37
 msgid "Date and time"
@@ -29,7 +31,7 @@ msgstr "data e hora"
 
 #: apps.py:41 models.py:16
 msgid "Message"
-msgstr ""
+msgstr "Mensagem"
 
 #: forms.py:29
 msgid "Email address"
@@ -53,7 +55,7 @@ msgstr "Email de ligação"
 
 #: links.py:22 views.py:31
 msgid "Document mailing error log"
-msgstr ""
+msgstr "Log de erros do mailing de documentos"
 
 #: literals.py:7
 #, python-format
@@ -63,6 +65,10 @@ msgid ""
 " --------\n"
 " This email has been sent from %(project_title)s (%(project_website)s)"
 msgstr ""
+"Anexado a este e-mail está o documento: {{ document }}\n"
+"\n"
+" --------\n"
+" Este e-mail foi enviado de %(project_title)s (%(project_website)s)"
 
 #: literals.py:13
 #, python-format
@@ -72,6 +78,10 @@ msgid ""
 "--------\n"
 " This email has been sent from %(project_title)s (%(project_website)s)"
 msgstr ""
+"Para acessar este documento click no link: {{ link }}\n"
+"\n"
+"--------\n"
+" Este e-mail foi enviado de  %(project_title)s (%(project_website)s)"
 
 #: models.py:13
 msgid "Date time"
@@ -79,7 +89,7 @@ msgstr "hora, data"
 
 #: models.py:22
 msgid "Log entry"
-msgstr ""
+msgstr "Entrada de log"
 
 #: models.py:23
 msgid "Log entries"
@@ -99,7 +109,7 @@ msgstr "Enviar documento por  e-mail"
 
 #: permissions.py:16
 msgid "View document mailing error log"
-msgstr ""
+msgstr "Ver log de erros do mailing de documentos"
 
 #: settings.py:14
 msgid "Link for document: {{ document }}"
