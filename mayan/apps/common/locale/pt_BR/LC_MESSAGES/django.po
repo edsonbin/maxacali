@@ -12,8 +12,8 @@ msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-04-27 14:10-0400\n"
-"PO-Revision-Date: 2016-03-21 21:08+0000\n"
-"Last-Translator: Roberto Rosario\n"
+"PO-Revision-Date: 2016-08-17 15:58-0300\n"
+"Last-Translator: Edson Oliveira dos Santos <edsonbin@hotmail.com>\n"
 "Language-Team: Portuguese (Brazil) (http://www.transifex.com/rosarior/mayan-"
 "edms/language/pt_BR/)\n"
 "Language: pt_BR\n"
@@ -21,10 +21,12 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 1.5.4\n"
 
 #: apps.py:72 settings.py:9
+#, fuzzy
 msgid "Common"
-msgstr ""
+msgstr "Frerquente"
 
 #: classes.py:53
 msgid "Available attributes: "
@@ -36,12 +38,12 @@ msgstr "Seleção"
 
 #: forms.py:105
 msgid "Filter"
-msgstr ""
+msgstr "Filtro"
 
 #: generics.py:127
 #, python-format
 msgid "Unable to transfer selection: %s."
-msgstr ""
+msgstr "Não é possível transferir seleção: %s."
 
 #: generics.py:151
 msgid "Add"
@@ -54,32 +56,32 @@ msgstr "Remover"
 #: generics.py:288
 #, python-format
 msgid "%(object)s not created, error: %(error)s"
-msgstr ""
+msgstr "%(object)s não criados, erro: %(error)s"
 
 #: generics.py:299
 #, python-format
 msgid "%(object)s created successfully."
-msgstr ""
+msgstr "%(object)s criados com sucesso."
 
 #: generics.py:324
 #, python-format
 msgid "%(object)s not deleted, error: %(error)s."
-msgstr ""
+msgstr "%(object)s não excluídos, erro: %(error)s."
 
 #: generics.py:335
 #, python-format
 msgid "%(object)s deleted successfully."
-msgstr ""
+msgstr "%(object)s excluídos com sucesso."
 
 #: generics.py:380
 #, python-format
 msgid "%(object)s not updated, error: %(error)s."
-msgstr ""
+msgstr "%(object)s não atualizados, erro: %(error)s."
 
 #: generics.py:391
 #, python-format
 msgid "%(object)s updated successfully."
-msgstr ""
+msgstr "%(object)s atualizados com sucesso."
 
 #: links.py:9
 msgid "About"
@@ -103,7 +105,7 @@ msgstr "Editar perfil Idioma"
 
 #: links.py:27
 msgid "Data filters"
-msgstr ""
+msgstr "Filtros de dados"
 
 #: links.py:31 views.py:150
 msgid "License"
@@ -111,7 +113,7 @@ msgstr "Licença"
 
 #: links.py:34 views.py:164
 msgid "Other packages licenses"
-msgstr ""
+msgstr "Licenças de outros pacotes"
 
 #: links.py:38
 msgid "Setup"
@@ -183,6 +185,9 @@ msgid ""
 "temporary files.  If none is specified, one will be created using tempfile."
 "mkdtemp()."
 msgstr ""
+"Pasta temporária usada por todo o site para armazenar miniaturas, previews e "
+"arquivos temporários. Se nenhuma for especificada, uma será criada usando "
+"tempfile.mkdtemp()."
 
 #: settings.py:22
 msgid "A storage backend that all workers can use to share files."
@@ -193,15 +198,20 @@ msgstr ""
 #: settings.py:28
 msgid "An integer specifying how many objects should be displayed per page."
 msgstr ""
+"Um inteiro que especifica quantos objetos devem ser exibidos por página."
 
+# Automáticamente habilita o log  para todos os apps.
 #: settings.py:34
+#, fuzzy
 msgid "Automatically enable logging to all apps."
-msgstr ""
+msgstr "Habilita o log automático para todos os apps."
 
 #: settings.py:40
 msgid ""
 "Time to delay background tasks that depend on a database commit to propagate."
 msgstr ""
+"Tempo para atrasar tarefas de segundo plano que dependem de um commit no "
+"banco de dados para se propagarem."
 
 #: views.py:37
 msgid "Current user details"
@@ -221,16 +231,16 @@ msgstr "Editar Usuário Atual - detalhes do perfil de localidade"
 
 #: views.py:113
 msgid "Filter selection"
-msgstr ""
+msgstr "seleção de arquivos"
 
 #: views.py:129
 #, python-format
 msgid "Results for filter: %s"
-msgstr ""
+msgstr "Resultados para o filtro: %s"
 
 #: views.py:136
 msgid "Filter not found"
-msgstr ""
+msgstr "Filtro não encontrado"
 
 #: views.py:177
 msgid "Setup items"

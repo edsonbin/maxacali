@@ -10,8 +10,8 @@ msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-04-27 14:12-0400\n"
-"PO-Revision-Date: 2016-03-21 21:02+0000\n"
-"Last-Translator: Roberto Rosario\n"
+"PO-Revision-Date: 2016-08-17 20:44-0300\n"
+"Last-Translator: Edson Oliveira dos Santos <edsonbin@hotmail.com>\n"
 "Language-Team: Portuguese (Brazil) (http://www.transifex.com/rosarior/mayan-"
 "edms/language/pt_BR/)\n"
 "Language: pt_BR\n"
@@ -19,6 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 1.5.4\n"
 
 #: apps.py:18 links.py:27 links.py:31 permissions.py:7 views.py:38
 msgid "Events"
@@ -39,7 +40,7 @@ msgstr "Verbo"
 #: classes.py:17
 #, python-brace-format
 msgid "Unknown or obsolete event type: {0}"
-msgstr "Desconhecido ou obsoletos tipo de evento: {0}"
+msgstr "Tipo de evento desconhecido ou obsoleto : {0}"
 
 #: models.py:13
 msgid "Name"

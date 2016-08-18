@@ -13,8 +13,8 @@ msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-04-27 14:12-0400\n"
-"PO-Revision-Date: 2016-03-21 21:11+0000\n"
-"Last-Translator: Roberto Rosario\n"
+"PO-Revision-Date: 2016-08-17 20:49-0300\n"
+"Last-Translator: Edson Oliveira dos Santos <edsonbin@hotmail.com>\n"
 "Language-Team: Portuguese (Brazil) (http://www.transifex.com/rosarior/mayan-"
 "edms/language/pt_BR/)\n"
 "Language: pt_BR\n"
@@ -22,6 +22,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 1.5.4\n"
 
 #: apps.py:33 links.py:16 links.py:44 models.py:45 permissions.py:7
 #: views.py:104
@@ -74,23 +75,23 @@ msgstr "Hora e data criada"
 
 #: models.py:63
 msgid "Document folder"
-msgstr ""
+msgstr "Pasta de documento"
 
 #: models.py:64
 msgid "Document folders"
-msgstr ""
+msgstr "Pastas de docuemento"
 
 #: permissions.py:10
 msgid "Create folders"
-msgstr ""
+msgstr "Ciriar pastas"
 
 #: permissions.py:13
 msgid "Edit folders"
-msgstr ""
+msgstr "Editar pastas"
 
 #: permissions.py:16
 msgid "Delete folders"
-msgstr ""
+msgstr "Excluir pastas"
 
 #: permissions.py:19
 msgid "Remove documents from folders"
@@ -98,20 +99,20 @@ msgstr "Remover documentos das pastas"
 
 #: permissions.py:22
 msgid "View folders"
-msgstr ""
+msgstr "Ver pastas"
 
 #: permissions.py:27
 msgid "Add documents to folders"
-msgstr ""
+msgstr "Adicionar documentos para pastas"
 
 #: serializers.py:58
 msgid "Primary key of the document to be added."
-msgstr ""
+msgstr "Chave primária do documento a ser adicionado."
 
 #: views.py:54
 #, python-format
 msgid "Delete the folder: %s?"
-msgstr ""
+msgstr "Excluir a pasta: %s?"
 
 #: views.py:66
 #, python-format
@@ -145,8 +146,8 @@ msgstr "Documento: %(document)s  já está na pasta: %(folder)s ."
 #: views.py:205
 msgid "Add document to folder"
 msgid_plural "Add documents to folder"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Adicionar documento para a pasta"
+msgstr[1] "Adicionar documentos para a pasta"
 
 #: views.py:227
 msgid "Must provide at least one folder document."
@@ -166,8 +167,8 @@ msgstr "Documento: %(document)s erro ao deletar: %(error)s "
 #, python-format
 msgid "Remove the selected document from the folder: %(folder)s?"
 msgid_plural "Remove the selected documents from the folder: %(folder)s?"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Excluir o documento selecionado da pasta: %(folder)s?"
+msgstr[1] "Excluir os documentos selecionado da pasta: %(folder)s?"
 
 #~ msgid "A folder named: %s, already exists."
 #~ msgstr "A folder named: %s, already exists."

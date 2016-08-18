@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-04-27 14:14-0400\n"
-"PO-Revision-Date: 2016-03-21 20:55+0000\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2016-08-18 01:39-0300\n"
+"Last-Translator: Edson Oliveira dos Santos <edsonbin@hotmail.com>\n"
 "Language-Team: Portuguese (Brazil) (http://www.transifex.com/rosarior/mayan-"
 "edms/language/pt_BR/)\n"
 "Language: pt_BR\n"
@@ -17,10 +17,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 1.5.4\n"
 
 #: apps.py:21 links.py:25 permissions.py:7
 msgid "Message of the day"
-msgstr ""
+msgstr "Mensagem do dia"
 
 #: apps.py:29 models.py:20
 msgid "Enabled"
@@ -28,7 +29,7 @@ msgstr "habilitado"
 
 #: apps.py:32 models.py:24
 msgid "Start date time"
-msgstr ""
+msgstr "Data e hora de início"
 
 #: apps.py:33 apps.py:37
 msgid "None"
@@ -36,11 +37,11 @@ msgstr "Nenhum"
 
 #: apps.py:36 models.py:29
 msgid "End date time"
-msgstr ""
+msgstr "Data e hora de fim"
 
 #: links.py:13 views.py:29
 msgid "Create message"
-msgstr ""
+msgstr "Criar mensagem"
 
 #: links.py:18
 msgid "Delete"
@@ -52,7 +53,7 @@ msgstr "Editar"
 
 #: models.py:13
 msgid "Short description of this message."
-msgstr ""
+msgstr "Breve descrição desta mensagem."
 
 #: models.py:14
 msgid "Label"
@@ -60,50 +61,50 @@ msgstr "Label"
 
 #: models.py:17
 msgid "The actual message to be displayed."
-msgstr ""
+msgstr "Mensagem atual a ser exibida."
 
 #: models.py:18 models.py:35
 msgid "Message"
-msgstr ""
+msgstr "Mensagem"
 
 #: models.py:23
 msgid "Date and time after which this message will be displayed."
-msgstr ""
+msgstr "Data e hoara a partir da qual a mensagem será mostrada;"
 
 #: models.py:28
 msgid "Date and time until when this message is to be displayed."
-msgstr ""
+msgstr "Data e hora em que esta mensagem deixará de ser mostrada."
 
 #: models.py:36 views.py:66
 msgid "Messages"
-msgstr ""
+msgstr "Mensagens"
 
 #: permissions.py:10
 msgid "Create messages"
-msgstr ""
+msgstr "Criar mensagens"
 
 #: permissions.py:13
 msgid "Delete messages"
-msgstr ""
+msgstr "Excluir mensagens"
 
 #: permissions.py:16
 msgid "Edit messages"
-msgstr ""
+msgstr "Editar mensagens"
 
 #: permissions.py:19
 msgid "View messages"
-msgstr ""
+msgstr "Ver mensagens"
 
 #: templates/motd/messages.html:8
 msgid "Messages of the day"
-msgstr ""
+msgstr "Mensagens do dia"
 
 #: views.py:42
 #, python-format
 msgid "Delete the message: %s?"
-msgstr ""
+msgstr "Excluir a mensagem: %s?"
 
 #: views.py:55
 #, python-format
 msgid "Edit message: %s"
-msgstr ""
+msgstr "Editar mensagem: %s"

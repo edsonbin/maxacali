@@ -12,8 +12,8 @@ msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-04-27 14:15-0400\n"
-"PO-Revision-Date: 2016-03-21 21:03+0000\n"
-"Last-Translator: Roberto Rosario\n"
+"PO-Revision-Date: 2016-08-18 02:00-0300\n"
+"Last-Translator: Edson Oliveira dos Santos <edsonbin@hotmail.com>\n"
 "Language-Team: Portuguese (Brazil) (http://www.transifex.com/rosarior/mayan-"
 "edms/language/pt_BR/)\n"
 "Language: pt_BR\n"
@@ -21,6 +21,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 1.5.4\n"
 
 #: apps.py:22 models.py:47 models.py:70 permissions.py:7
 msgid "Permissions"
@@ -112,29 +113,29 @@ msgstr "Revogar as permissões"
 
 #: views.py:45
 msgid "Available groups"
-msgstr ""
+msgstr "Grupos disponíveis"
 
 #: views.py:46
 msgid "Role groups"
-msgstr ""
+msgstr "Grupos de papeis"
 
 #: views.py:56
 #, python-format
 msgid "Groups of role: %s"
-msgstr ""
+msgstr "Grupos do papel: %s"
 
 #: views.py:79
 msgid "Available permissions"
-msgstr ""
+msgstr "Permissões disponíveis"
 
 #: views.py:80
 msgid "Granted permissions"
-msgstr ""
+msgstr "Permissões reonhecidas"
 
 #: views.py:93
 #, python-format
 msgid "Permissions for role: %s"
-msgstr ""
+msgstr "Permissões para o papel: %s"
 
 #~ msgid "Permission holder"
 #~ msgstr "permission holder"

@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-04-27 14:15-0400\n"
-"PO-Revision-Date: 2016-03-21 21:05+0000\n"
-"Last-Translator: Roberto Rosario\n"
+"PO-Revision-Date: 2016-08-18 02:14-0300\n"
+"Last-Translator: Edson Oliveira dos Santos <edsonbin@hotmail.com>\n"
 "Language-Team: Portuguese (Brazil) (http://www.transifex.com/rosarior/mayan-"
 "edms/language/pt_BR/)\n"
 "Language: pt_BR\n"
@@ -18,6 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 1.5.4\n"
 
 #: apps.py:23 links.py:28 permissions.py:7
 msgid "Statistics"
@@ -27,19 +28,19 @@ msgstr "Estatísticas"
 #. statistic will be updated
 #: apps.py:42
 msgid "Schedule"
-msgstr ""
+msgstr "Cronograma"
 
 #: links.py:11
 msgid "Queue"
-msgstr ""
+msgstr "Enfileirar"
 
 #: links.py:15
 msgid "View"
-msgstr ""
+msgstr "Ver"
 
 #: links.py:19
 msgid "Namespace details"
-msgstr ""
+msgstr "Detalhes do namespace"
 
 #: links.py:23
 msgid "Namespace list"
@@ -57,23 +58,23 @@ msgstr "hora, data"
 
 #: models.py:18
 msgid "Data"
-msgstr ""
+msgstr "Dados"
 
 #: models.py:31
 msgid "Statistics result"
-msgstr ""
+msgstr "Resultado da estatística"
 
 #: models.py:32
 msgid "Statistics results"
-msgstr ""
+msgstr "Resultados das estatísticas"
 
 #: permissions.py:10
 msgid "View statistics"
-msgstr ""
+msgstr "Ver estatísticas"
 
 #: templates/statistics/backends/chartjs/line.html:19
 msgid "No data available yet"
-msgstr ""
+msgstr "Ainda não há neum dado disponível"
 
 #: views.py:19
 msgid "Statistics namespaces"
@@ -92,7 +93,7 @@ msgstr "Resultados para: %s"
 #: views.py:62 views.py:85
 #, python-format
 msgid "Statistic \"%s\" not found."
-msgstr ""
+msgstr "Estatística \"%s\" não encontrada."
 
 #. Translators: This text is asking users if they want to queue
 #. (to send to the queue) a statistic for it to be update ahead
@@ -100,4 +101,4 @@ msgstr ""
 #: views.py:78
 #, python-format
 msgid "Queue statistic \"%s\" to be updated?"
-msgstr ""
+msgstr "Enfileirar estatística \"%s\" para ser atualizada?"

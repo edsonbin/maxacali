@@ -12,8 +12,8 @@ msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-04-27 14:13-0400\n"
-"PO-Revision-Date: 2016-03-21 21:10+0000\n"
-"Last-Translator: Roberto Rosario\n"
+"PO-Revision-Date: 2016-08-17 21:28-0300\n"
+"Last-Translator: Edson Oliveira dos Santos <edsonbin@hotmail.com>\n"
 "Language-Team: Portuguese (Brazil) (http://www.transifex.com/rosarior/mayan-"
 "edms/language/pt_BR/)\n"
 "Language: pt_BR\n"
@@ -21,10 +21,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 1.5.4\n"
 
 #: apps.py:33
 msgid "Linking"
-msgstr ""
+msgstr "Linking"
 
 #: apps.py:55 models.py:18
 msgid "Label"
@@ -32,7 +33,7 @@ msgstr "Label"
 
 #: apps.py:62 models.py:25
 msgid "Dynamic label"
-msgstr ""
+msgstr "Etiquta dinâmica"
 
 #: apps.py:66 apps.py:71 models.py:27 models.py:124
 msgid "Enabled"
@@ -149,11 +150,14 @@ msgid ""
 "(https://docs.djangoproject.com/en/1.7/ref/templates/builtins/). The "
 "{{ document }} context variable is available."
 msgstr ""
+"Entre com um template para renderizar. Use a linguagem de template padrão do "
+"Django (https://docs.djangoproject.com/en/1.7/ref/templates/builtins/). A "
+"variável de contexto {{ document }} está disponível para uso."
 
 #: models.py:43
 #, python-format
 msgid "Error generating dynamic label; %s"
-msgstr ""
+msgstr "Erro ao gerar etiqueta dinâmica:%s"
 
 #: models.py:52
 msgid "This smart link is not allowed for the selected document's type."
@@ -227,14 +231,16 @@ msgstr "Os documentos em referência inteligente: %s "
 msgid ""
 "Documents in smart link \"%(smart_link)s\" as related to \"%(document)s\""
 msgstr ""
+"Documentos no link inteligente  \"%(smart_link)s\" são relacionados a "
+"\"%(document)s\""
 
 #: views.py:97
 msgid "Available document types"
-msgstr ""
+msgstr "Tipos de documentos disponíveis"
 
 #: views.py:99
 msgid "Document types enabled"
-msgstr ""
+msgstr "Tipos de documentos habilitados"
 
 #: views.py:108
 #, python-format
@@ -254,7 +260,7 @@ msgstr "Editar Ligação inteligente: %s"
 #: views.py:210
 #, python-format
 msgid "Delete smart link: %s"
-msgstr ""
+msgstr "Excluir link inteligente: %s"
 
 #: views.py:222
 #, python-format
@@ -273,7 +279,7 @@ msgstr "Editar condição de ligação Inteligente"
 #: views.py:334
 #, python-format
 msgid "Delete smart link condition: \"%s\"?"
-msgstr ""
+msgstr "Excluir condição de link inteligente: \"%s\"?"
 
 #~ msgid "Smart link condition: \"%s\" created successfully."
 #~ msgstr "Smart link condition: \"%s\" created successfully."

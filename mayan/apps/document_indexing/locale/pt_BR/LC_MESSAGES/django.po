@@ -11,8 +11,8 @@ msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-04-27 14:11-0400\n"
-"PO-Revision-Date: 2016-03-21 21:09+0000\n"
-"Last-Translator: Roberto Rosario\n"
+"PO-Revision-Date: 2016-08-17 19:02-0300\n"
+"Last-Translator: Edson Oliveira dos Santos <edsonbin@hotmail.com>\n"
 "Language-Team: Portuguese (Brazil) (http://www.transifex.com/rosarior/mayan-"
 "edms/language/pt_BR/)\n"
 "Language: pt_BR\n"
@@ -20,6 +20,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 1.5.4\n"
 
 #: admin.py:24
 msgid "None"
@@ -31,7 +32,7 @@ msgstr "Tipos de Documentos"
 
 #: apps.py:48
 msgid "Document indexing"
-msgstr ""
+msgstr "Indexação de documentos"
 
 #: apps.py:120 models.py:25
 msgid "Label"
@@ -106,6 +107,7 @@ msgstr ""
 #: models.py:29
 msgid "This values will be used by other apps to reference this index."
 msgstr ""
+"Estes valores serão usados por outros apps para referênciar este índice."
 
 #: models.py:35
 msgid "Causes this index to be visible and updated when document data changes."
@@ -123,13 +125,15 @@ msgstr "index instance"
 
 #: models.py:102
 msgid "Index instances"
-msgstr ""
+msgstr "Instâncias do índice"
 
 #: models.py:114
 msgid ""
 "Enter a template to render. Use Django's default templating language "
 "(https://docs.djangoproject.com/en/1.7/ref/templates/builtins/)"
 msgstr ""
+"Entre com um template para renderizar. Use a linguagem de templates padrão "
+"do Django (https://docs.djangoproject.com/en/1.7/ref/templates/builtins/)"
 
 #: models.py:118
 msgid "Indexing expression"
@@ -186,12 +190,13 @@ msgid "Indexes node instances"
 msgstr "Índices instâncias de nó "
 
 #: models.py:213
+#, fuzzy
 msgid "Document index node instance"
-msgstr ""
+msgstr "Instância do nó do índice de documento"
 
 #: models.py:214
 msgid "Document indexes node instances"
-msgstr ""
+msgstr "Instânciaa do nó dos índices de documento"
 
 #: permissions.py:7
 msgid "Indexing"
@@ -220,7 +225,7 @@ msgstr "Reconstruir índices de documento"
 #: views.py:51
 #, python-format
 msgid "Delete the index: %s?"
-msgstr ""
+msgstr "Excluir o índice: %s?"
 
 #: views.py:64
 #, python-format
@@ -229,16 +234,16 @@ msgstr "Editar Indice: %s"
 
 #: views.py:81
 msgid "Available document types"
-msgstr ""
+msgstr "Tipos de documento disponíveis"
 
 #: views.py:83
 msgid "Document types linked"
-msgstr ""
+msgstr "Tipos de documentos ligados"
 
 #: views.py:106
 #, python-format
 msgid "Document types linked to index: %s"
-msgstr ""
+msgstr "Tipos de documentos ligados ao índice: %s"
 
 #: views.py:145
 #, python-format
@@ -248,22 +253,22 @@ msgstr "Árvore nó modelo para  o índice: %s"
 #: views.py:172
 #, python-format
 msgid "Create child node of: %s"
-msgstr ""
+msgstr "Criado un nó filho de: %s"
 
 #: views.py:196
 #, python-format
 msgid "Delete the index template node: %s?"
-msgstr ""
+msgstr "Excluir nó do template de índice: %s?"
 
 #: views.py:218
 #, python-format
 msgid "Edit the index template node: %s?"
-msgstr ""
+msgstr "Editar nó do template de índice: %s?"
 
 #: views.py:286
 #, python-format
 msgid "Navigation: %s"
-msgstr ""
+msgstr "Navegação: %s"
 
 #: views.py:291
 #, python-format
@@ -273,7 +278,7 @@ msgstr "Conteúdo para Indice? %s"
 #: views.py:331
 #, python-format
 msgid "Indexes nodes containing document: %s"
-msgstr ""
+msgstr "Nós de índice contendo documento: %s"
 
 #: views.py:341
 msgid "On large databases this operation may take some time to execute."
@@ -282,7 +287,7 @@ msgstr ""
 
 #: views.py:342
 msgid "Rebuild all indexes?"
-msgstr ""
+msgstr "Reconstruir todos os índices?"
 
 #: views.py:351
 msgid "Index rebuild queued successfully."
